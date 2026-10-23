@@ -1,0 +1,16 @@
+[
+  {"id": "C1", "target": "Infosys", "target_type": "company", "geography": "India", "ticker": "INFY.NS",
+   "competitors": ["TCS", "Wipro", "HCLTech"], "competitor_tickers": ["TCS.NS", "WIPRO.NS", "HCLTECH.NS"],
+   "focus": "generative AI services opportunity"},
+  {"id": "C2", "target": "HDFC Bank", "target_type": "company", "geography": "India", "ticker": "HDFCBANK.NS",
+   "competitors": ["ICICI Bank", "Kotak Mahindra Bank"], "competitor_tickers": ["ICICIBANK.NS", "KOTAKBANK.NS"],
+   "focus": "digital banking and retail lending"},
+  {"id": "C3", "target": "NVIDIA", "target_type": "company", "geography": "Global", "ticker": "NVDA",
+   "competitors": ["AMD", "Intel"], "competitor_tickers": ["AMD", "INTC"], "focus": "data-centre AI accelerators"},
+  {"id": "I1", "target": "Indian electric two-wheeler market", "target_type": "industry", "geography": "India",
+   "competitors": [], "competitor_tickers": [], "focus": "market structure and entry barriers"},
+  {"id": "I2", "target": "Indian quick commerce industry", "target_type": "industry", "geography": "India",
+   "competitors": [], "competitor_tickers": [], "focus": "unit economics and competitive intensity"},
+  {"id": "I3", "target": "Global generative AI enterprise software market", "target_type": "industry", "geography": "Global",
+   "competitors": [], "competitor_tickers": [], "focus": "adoption drivers and risks"}
+]

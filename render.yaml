@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: market-research-agents
+    runtime: docker
+    plan: free
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
+        sync: false          # paste the value in the Render dashboard, never commit it
+      - key: APP_ACCESS_CODE
+        sync: false          # optional: protects your API quota on a public URL
+      - key: RUNS_PER_SESSION
+        value: "3"
